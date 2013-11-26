@@ -7,11 +7,13 @@ int paper_y=2790;
 
 color r_colour() {
   return color(random(255),random(255),random(255));
+  // uncomment for black and white
   //int x = (int)random(255);
   //return color(x,x,x);
 }
 
-boolean print_mode = false;
+// true to creat pdf file, false to preview on screen
+boolean print_mode = true;
 
 void setup() {
   creatures = new ArrayList();
@@ -26,7 +28,7 @@ void setup() {
 
     size(paper_x,paper_y);
     noLoop();
-    beginRecord(PDF, "delabels.pdf"); 
+    beginRecord(PDF, "monsters.pdf"); 
 
     int img_no=0;
     float scale_factor = 1.9;
