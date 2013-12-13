@@ -13,7 +13,7 @@ color r_colour() {
 }
 
 // true to creat pdf file, false to preview on screen
-boolean print_mode = true;
+boolean print_mode = false;
 
 void setup() {
   creatures = new ArrayList();

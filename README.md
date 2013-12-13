@@ -20,7 +20,7 @@ Or run Processing normally and find the monsters sketch in the sketchbook.
 Running the program will generate the pdf file in the same directory as the sketch.
 
 
-    
+![]()    
 
 
 
